@@ -1,1 +1,1 @@
-Proyecto Módulo 3 - equipo 8
+Personal portfolio with the aim of showing personal projects and adalab projects
