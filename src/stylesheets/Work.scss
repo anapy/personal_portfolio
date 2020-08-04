@@ -1,0 +1,29 @@
+.project_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project {
+  position: relative;
+  margin: 20px;
+}
+
+.project_info {
+  position: absolute;
+}
+h2 {
+  padding: 20px;
+  color: white;
+
+}
+
+.img_container {
+  overflow: hidden;
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.image:hover {
+  opacity: 0.5;
+}

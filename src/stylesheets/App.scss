@@ -1,0 +1,38 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: rgb(216, 194, 194);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-image: url('../images/background.jpg');
+}
+
+header {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_menu {
+  display: flex;
+  li {
+    padding: 5px
+  }
+}
+
+main {
+  padding: 20px;
+}
+
+
