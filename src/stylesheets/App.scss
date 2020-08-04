@@ -1,3 +1,5 @@
+@import "/mixins";
+
 * {
   font-family: 'Nanum Gothic', sans-serif;
   color: rgb(216, 194, 194);
@@ -19,15 +21,26 @@ body {
 
 header {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(58, 59, 59, 0.7);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  @include tablet {
+    flex-direction: row;
+  }
 }
 
 .navigation_menu {
   display: flex;
+  font-size: 20px;
   li {
     padding: 5px
+  }
+  .center {
+    border-left: 1px solid rgb(216, 194, 194);
+    border-right: 1px solid rgb(216, 194, 194);
+    padding: 0 10px;
+
   }
 }
 
