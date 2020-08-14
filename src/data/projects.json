@@ -2,57 +2,130 @@
   {
     "id": "project1",
     "name": "Queens of Code",
-    "tecnologies": ["HTML", "CSS", "SASS"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"}
+    ],
     "description": "Web grupal para presentar a las integrantes del equipo",
-    "image": "./images/project-module-1.png"
+    "image": "./images/project-module-1.png",
+    "webURL": "http://beta.adalab.es/project-promo-j-module-1-team-5/",
+    "githubURL": "https://github.com/Adalab/project-promo-j-module-1-team-5"
   },
   {
     "id": "final_module1",
     "name": "Anonimous Proxy",
-    "tecnologies": ["HTML", "CSS", "SASS"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"}
+    ],
     "description": "Web individual maquetada según diseño dado por Zeplin",
-    "image": "./images/module-1-final.png"
+    "image": "./images/module-1-final.png",
+    "webURL": "http://beta.adalab.es/modulo-1-evaluacion-final-anapy/",
+    "githubURL": "https://github.com/Adalab/modulo-1-evaluacion-final-anapy"
   },
   {
     "id": "project2",
     "name": "Sailor Code",
-    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "API Rest"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"},
+      {"name":"JavaScript", "url": "./images/logos/JS.png"},
+      {"name":"API Rest", "url": "./images/logos/API.png"}
+    ],
     "description": "Web iteractica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon",
-    "image": "./images/project-module-2.jpg"
+    "image": "./images/project-module-2.jpg",
+    "webURL": "http://beta.adalab.es/project-module-2-group-6/",
+    "githubURL": "https://github.com/Adalab/project-module-2-group-6"
   },
   {
     "id": "intermediate_module2",
     "name": "Adivina el número",
-    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"},
+      {"name":"JavaScript", "url": "./images/logos/JS.png"}
+    ],
     "description": "Web que contiene un juego de adivinar el número del 1-100 con pistas y contador de errores",
-    "image": "./images/module-2-intermedia.png"
+    "image": "./images/module-2-intermedia.png",
+    "webURL": "http://beta.adalab.es/modulo-2-evaluacion-intermedia-anapy/",
+    "githubURL": "https://github.com/Adalab/modulo-2-evaluacion-intermedia-anapy"
   },
   {
     "id": "final_module2",
     "name": "Serieaholic",
-    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "API Rest"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"},
+      {"name":"JavaScript", "url": "./images/logos/JS.png"},
+      {"name":"API Rest", "url": "./images/logos/API.png"}
+    ],
     "description": "Web que recoge información de series de una API y permite hacer búsuqedas y guardar en favoritos",
-    "image": "./images/module-2-final.png"
+    "image": "./images/module-2-final.png",
+    "webURL": "http://beta.adalab.es/modulo-2-evaluacion-final-anapy/",
+    "githubURL": "https://github.com/Adalab/modulo-2-evaluacion-final-anapy"
   },
   {
     "id": "intermediate_module3",
     "name": "My Pokedex",
-    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "React"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"},
+      {"name":"JavaScript", "url": "./images/logos/JS.png"},
+      {"name":"React", "url": "./images/logos/React.png"}
+    ],
     "description": "Web realizada con react y dividida en componentes que muestra una serie de pokemons y permite marcarlos como favoritos",
-    "image": "./images/module-3-intermediate.png"
+    "image": "./images/module-3-intermediate.png",
+    "webURL": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-anapy/",
+    "githubURL": "hhttps://github.com/Adalab/modulo-3-evaluacion-intermedia-anapy"
   },
   {
     "id": "final_module3",
     "name": "Rick and Morty",
-    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "React", "API Rest"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"},
+      {"name":"JavaScript", "url": "./images/logos/JS.png"},
+      {"name":"API Rest", "url": "./images/logos/API.png"},
+      {"name":"React", "url": "./images/logos/React.png"}
+    ],
     "description": "Web realizada con react y dividida en componentes que muestra una serie de pokemons y permite marcarlos como favoritos",
-    "image": "./images/module-3-final.png"
+    "image": "./images/module-3-final.png",
+    "webURL": "http://beta.adalab.es/modulo-3-evaluacion-final-anapy/#/",
+    "githubURL": "https://github.com/Adalab/modulo-3-evaluacion-final-anapy"
   },
   {
     "id": "project3",
     "name": "Kard Ma Cards",
-    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "React", "API Rest"],
+    "tecnologies": [
+      {"name":"HTML","url": "./images/logos/HTML.svg.png"},
+      {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
+      {"name":"SASS", "url": "./images/logos/sass.svg"},
+      {"name":"JavaScript", "url": "./images/logos/JS.png"},
+      {"name":"API Rest", "url": "./images/logos/API.png"},
+      {"name":"React", "url": "./images/logos/React.png"}
+    ],
     "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las mismas funcionalidades y añadiendo detalles al original",
-    "image": "./images/project-module-3.png"
+    "image": "./images/project-module-3.png",
+    "webURL": "http://beta.adalab.es/project-promo-j-module-3-team-8/#/",
+    "githubURL": "https://github.com/Adalab/project-promo-j-module-3-team-8"
+  },
+  {
+    "id": "Java_project",
+    "name": "Gestion fabrica de muebles",
+    "tecnologies": [
+      {"name":"Java","url": "./images/logos/JAVA.png"}
+    ],
+    "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las mismas funcionalidades y añadiendo detalles al original",
+    "image": "https://via.placeholder.com/200x60/FFFF00/000000?text=No+a+web+project",
+    "webURL": " ",
+    "githubURL": "https://github.com/anapy/Gestion-fabrica-artesanal-de-muebles"
   }
 ]
+

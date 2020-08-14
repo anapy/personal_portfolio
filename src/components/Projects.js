@@ -11,6 +11,8 @@ const Projects = props => {
         tecnologies={project.tecnologies}
         description={project.description}
         image={project.image}
+        webURL={project.webURL}
+        githubURL={project.githubURL}
       />
     </li>
     )

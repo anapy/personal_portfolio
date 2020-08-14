@@ -2,17 +2,17 @@ import React from 'react';
 // import '../stylesheets/.scss';
 
 const Project = props => {
-  const {name, tecnologies, description, image} = props;
+  const {name, tecnologies, description, image, webURL, githubURL} = props;
   const tecnologiesList = tecnologies.map((tecnology, index) => {
-    return <li className="type" key={index}>{tecnology}</li>
+    return <li className="tecnologies" key={index}><img src={tecnology.url} alt={tecnology.name} height="30px"></img></li>
   } );
   return (
     <div className="work">
       <ul className="project_container">
         <li className="project project1">
           <div className="project_links">
-            <span className="web">www</span>
-            <span className="github">cat</span>
+            <a href={webURL} className="web" target="_blank" rel="noopener noreferrer"><img src="./images/logos/web2.svg" alt="web" height="40px"></img></a>
+            <a href={githubURL} className="github" target="_blank" rel="noopener noreferrer"><img src="./images/logos/github.svg" alt="web" height="40px"></img></a>
           </div>
           <div className="img_container">
             <img className="image" src={image} alt="project-module-1" width="400px"></img>
