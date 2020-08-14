@@ -1,20 +1,39 @@
+.work {
+}
+
 .project_container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
 }
 .project {
+  color: black;
+  background-color: white;
+  padding: 30px;
   position: relative;
   margin: 20px;
+  border: 1px solid red;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_links {
+    display: flex;
+    justify-content: space-between;
+  }
+  & .web, .github{
+    display: block;
+    padding: 5px;
+  }
 }
 
 .project_info {
-  position: absolute;
 }
 h2 {
   padding: 20px;
-  color: white;
-
 }
 
 .img_container {

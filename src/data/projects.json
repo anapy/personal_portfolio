@@ -1,0 +1,58 @@
+[
+  {
+    "id": "project1",
+    "name": "Queens of Code",
+    "tecnologies": ["HTML", "CSS", "SASS"],
+    "description": "Web grupal para presentar a las integrantes del equipo",
+    "image": "./images/project-module-1.png"
+  },
+  {
+    "id": "final_module1",
+    "name": "Anonimous Proxy",
+    "tecnologies": ["HTML", "CSS", "SASS"],
+    "description": "Web individual maquetada según diseño dado por Zeplin",
+    "image": "./images/module-1-final.png"
+  },
+  {
+    "id": "project2",
+    "name": "Sailor Code",
+    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "API Rest"],
+    "description": "Web iteractica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon",
+    "image": "./images/project-module-2.jpg"
+  },
+  {
+    "id": "intermediate_module2",
+    "name": "Adivina el número",
+    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript"],
+    "description": "Web que contiene un juego de adivinar el número del 1-100 con pistas y contador de errores",
+    "image": "./images/module-2-intermedia.png"
+  },
+  {
+    "id": "final_module2",
+    "name": "Serieaholic",
+    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "API Rest"],
+    "description": "Web que recoge información de series de una API y permite hacer búsuqedas y guardar en favoritos",
+    "image": "./images/module-2-final.png"
+  },
+  {
+    "id": "intermediate_module3",
+    "name": "My Pokedex",
+    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "React"],
+    "description": "Web realizada con react y dividida en componentes que muestra una serie de pokemons y permite marcarlos como favoritos",
+    "image": "./images/module-3-intermediate.png"
+  },
+  {
+    "id": "final_module3",
+    "name": "Rick and Morty",
+    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "React", "API Rest"],
+    "description": "Web realizada con react y dividida en componentes que muestra una serie de pokemons y permite marcarlos como favoritos",
+    "image": "./images/module-3-final.png"
+  },
+  {
+    "id": "project3",
+    "name": "Kard Ma Cards",
+    "tecnologies": ["HTML", "CSS", "SASS", "JavaScript", "React", "API Rest"],
+    "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las mismas funcionalidades y añadiendo detalles al original",
+    "image": "./images/project-module-3.png"
+  }
+]

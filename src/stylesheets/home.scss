@@ -1,7 +1,7 @@
 .home {
   display: flex;
   align-items: center;
-  background-color: rgba(58, 59, 59, 0.7);
+  background-color: rgb(0, 0, 0);
   line-height: 50px;
   font-size: 20px;
   height: 92vh;
@@ -27,10 +27,12 @@
 .highlightWords {
   font-weight: 900;
   color: rgb(217, 218, 167);
+  color: rgb(214, 218, 1);
+
   transition: color ease;
 
   &:hover {
-    color: rgb(214, 218, 1);
+    color: rgb(149, 153, 37);
   }
 }
 
