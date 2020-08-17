@@ -19,6 +19,7 @@ const Projects = props => {
   });
   return (
     <div className="work">
+      <h2 className="projects_title">Proyectos</h2>
       <ul className="project_container">
         {projects}
       </ul>
