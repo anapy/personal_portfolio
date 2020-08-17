@@ -2,6 +2,8 @@ import React from 'react';
 import Projects from './Projects';
 import Home from './Home';
 import AboutMe from './AboutMe';
+import Contact from './Contact';
+import Footer from './Footer';
 import projects from '../data/projects.json';
 
 
@@ -26,10 +28,12 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/projects">
             <Projects projects={projects}/>
-            </Route>
+          </Route>
           <Route path="/aboutme" component={AboutMe} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </main>
+      <Footer/>
     </div>
   )
 }

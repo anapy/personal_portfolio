@@ -13,7 +13,7 @@ const Project = props => {
         <li className="project project1">
           <div className="project_links">
             <a href={webURL} className="web" target="_blank" rel="noopener noreferrer"><img src="./images/logos/web2.svg" alt="web" height="40px"></img></a>
-            <a href={githubURL} className="github" target="_blank" rel="noopener noreferrer"><img src="./images/logos/github.svg" alt="web" height="40px"></img></a>
+            <a href={githubURL} className="github_logo" target="_blank" rel="noopener noreferrer"><img src="./images/logos/github.svg" alt="web" height="40px"></img></a>
           </div>
           <div className="img_container">
             <img className="image" src={image} alt="project-module-1" width="400px"></img>

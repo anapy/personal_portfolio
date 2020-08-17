@@ -1,0 +1,87 @@
+.footer {
+position: fixed;
+bottom: 0;
+left: 40px;
+}
+
+.circular-menu {
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background-color: rgb(216, 191, 51);
+  border-radius: 50%;
+}
+
+.open.circle {
+  opacity: 1;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  transform: scale(2);
+}
+
+.circle a {
+  text-decoration: none;
+  color: #2e3840;
+  line-height: 40px;
+  margin-top:-20px;
+  position: absolute;
+}
+
+.circle a:hover {
+  color: #385772;
+}
+
+.menu-button {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: 15%;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  line-height: 40px;
+  background: #2e3840;
+}
+
+.menu-button:hover {
+  background-color: #385772;
+}
+
+.twitter {
+  position: relative;
+  left: 38%;
+  top: 35%;
+}
+
+.github {
+  position: relative;
+  left: 55%;
+  top: 40%;
+}
+
+.linkedin {
+  position: relative;
+  left: 58%;
+  top: 58%;
+}
+
+.share_logo{
+  align-items: center;
+  margin-top: 10px;
+  color: #d9c032;
+  font-size: 35px;
+}

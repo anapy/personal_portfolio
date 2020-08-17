@@ -33,6 +33,7 @@
   &_links {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
     .web:hover, .github:hover {
       opacity: 0.5;
     }
