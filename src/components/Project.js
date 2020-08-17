@@ -6,6 +6,7 @@ const Project = props => {
   const tecnologiesList = tecnologies.map((tecnology, index) => {
     return <li className="tecnologies" key={index}><img src={tecnology.url} alt={tecnology.name} height="30px"></img></li>
   } );
+  console.log(props);
   return (
     <div className="work">
       <ul className="project_container">

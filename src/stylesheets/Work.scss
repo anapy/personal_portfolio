@@ -1,9 +1,10 @@
 .work {
 }
 
+
 .project_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -12,12 +13,13 @@
   background-color: white;
   padding: 30px;
   position: relative;
-  margin: 20px 0;
+  margin: 20px;
   width: 500px;
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 5px;
   &_info_tecnologies {
     margin: 15px;
     display: flex;
@@ -26,6 +28,9 @@
   &_links {
     display: flex;
     justify-content: space-between;
+    .web:hover, .github:hover {
+      opacity: 0.5;
+    }
   }
   & .web, .github{
     display: block;
@@ -44,8 +49,4 @@ h2 {
   width: 400px;
   height: 200px;
   position: relative;
-}
-
-.image:hover {
-  opacity: 0.5;
 }

@@ -124,7 +124,7 @@
     ],
     "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las mismas funcionalidades y añadiendo detalles al original",
     "image": "https://via.placeholder.com/200x60/FFFF00/000000?text=No+a+web+project",
-    "webURL": " ",
+    "webURL": "",
     "githubURL": "https://github.com/anapy/Gestion-fabrica-artesanal-de-muebles"
   }
 ]

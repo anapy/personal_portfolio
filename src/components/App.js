@@ -5,7 +5,6 @@ import AboutMe from './AboutMe';
 import projects from '../data/projects.json';
 
 
-
 import '../stylesheets/App.scss';
 import { Link, Route, Switch } from 'react-router-dom';
 
@@ -13,7 +12,7 @@ const App = () => {
   return (
     <div>
     <header className="header">
-      <Link to="/"><h1 className="mainTitle">Ana Belén Funes</h1></Link>
+      <Link to="/"><img src="./images/logoAB.png" alt="logoAB" height="150px"></img></Link>
       <nav>
         <ul className="navigation_menu">
           <li><Link className="nav_link" to="/projects">Proyectos </Link></li>
