@@ -4,34 +4,28 @@ import '../stylesheets/contact.scss';
 const Contact = props => {
 
   return (
-    <div class="contact">
-      <h2 class="contact__title">Contacto</h2>
-      <div class="contact__paragraph">
-        <p class="contact__paragraph--first">
-          No lo dudes y envíanos tus comentarios, dudas, preguntas...¡Estaremos
-          encantadas de responderte!
+    <div className="contact">
+      <h2 className="contact__title">Contacto</h2>
+        <p className="contact__paragraph">
+          ¿Quieres ponerte en contacto conmigo?
         </p>
-      </div>
-      <form action="https://formspree.io/xeqrkebj" method="post" class="contact__form">
-        <div class="contact__form--group">
-          <label for="fullName">Nombre <span class="contact__star"> *</span></label>
+        <p className="contact__paragraph">  Puedes hacerlo a través de mis redes sociales o rellenando el siguiente cuestionario. </p>
+      <form action="https://formspree.io/xpzyezyn" method="post" className="contact__form">
+        <label for="fullName">Nombre <span className="contact__star"> *</span>
           <input type="text" id="fullName" name="fullName" placeholder="Nombre..." required />
-        </div>
-        <div class="contact__form--group email-tel">
-          <div class="contact__form--email">
-            <label for="email">Email<span class="contact__star"> *</span></label><input type="email" id="email"
-              name="email" placeholder="nombre.apellidos@mail.com" required />
-          </div>
-        </div>
-        <div class="contact__form--group">
-          <label for="message">Mensaje<span class="contact__star"> *</span>
-            <textarea class="contact__form--textarea" id="message" name="message" placeholder="¿Qué necesitas?"
-              required></textarea>
-          </label>
-        </div>
-        <input class="contact__form--button" type="submit" value="Enviar" />
+        </label>
+        <label for="email">Email<span className="contact__star"> *</span>
+          <input type="email" id="email"
+            name="email" placeholder="nombre.apellidos@mail.com" required />
+        </label>
+        <label for="message">Mensaje<span className="contact__star"> *</span>
+          <textarea className="contact__form textarea" id="message" name="message" placeholder="¿Qué necesitas?"
+            required></textarea>
+        </label>
+        <input className="submit_button" type="submit" value="Enviar" />
       </form>
-  </div>);
+  </div>
+  );
 }
 
 export default Contact;

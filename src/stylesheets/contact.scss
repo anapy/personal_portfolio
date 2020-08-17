@@ -1,13 +1,42 @@
 .contact {
   margin: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   &__title {
     color: #d9c032;
+    align-items: center;
+    font-size: 36px;
   }
   &__paragraph {
+    align-self: center;
     padding: 0 0 20px;
+  }
+  &__star {
+    color:#d9c032;
   }
 }
 
-label {
-  padding: 20px;
+
+input, textarea {
+  margin: 10px 0;
+  display: block;
+  padding: 10px 5px;
+  width: 500px;
+}
+
+.textarea {
+  height: 200px;
+}
+
+.submit_button {
+  background-color: #2e3840;
+  color: rgb(216, 191, 51);
+  font-size: 20px;
+}
+
+.submit_button:hover {
+  background-color: rgb(216, 191, 51);
+  color: #2e3840
 }
