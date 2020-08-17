@@ -3,9 +3,9 @@ import Project from './Project';
 import '../stylesheets/Work.scss';
 
 const Projects = props => {
-  const projects = props.projects.map((project) => {
+  const projects = props.projects.map((project, index) => {
     return (
-    <li className={`project ${project.id}`}>
+    <li className={`project ${project.id}`} key={index}>
       <Project
         name={project.name}
         tecnologies={project.tecnologies}
