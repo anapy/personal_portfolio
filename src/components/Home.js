@@ -15,11 +15,17 @@ class Home extends React.Component {
         <span className="highlightWords four"> resolutiva</span>
         <span class="nonhighlight"> y la adaptabilidad a diferentes culturas e idiomas era algo esencial. Soy curiosa y</span>
         <span className="highlightWords six"> exigente </span>
-        <span class="nonhighlight">con mi trabajo. Me apasiona tener siempre algo nuevo que</span>
+        <span class="nonhighlight">con mi trabajo. Cuando descubrí el mundo tecnológico decidí cambiar de rumbo profesional e inicié mis estudios en </span>
+        <span className="highlightWords seven"> Ingeniería Informática</span>
+        <span class="nonhighlight">. Me apasiona tener siempre algo nuevo que</span>
         <span className="highlightWords three"> aprender </span>
-        <span class="nonhighlight">y fijarme metas que alcanzar, por eso decidí formarme como Desarrolladora</span>
+        <span class="nonhighlight">y fijarme metas que alcanzar, por eso decidí formarme como desarrolladora</span>
         <span className="highlightWords five"> Front-End </span>
-        <span class="nonhighlight">aunque eso será solo el principio.</span>
+        <span class="nonhighlight"> y así sumarlo a mis conocimientos de</span>
+        <span className="highlightWords nine"> Java </span>
+        <span class="nonhighlight">y</span>
+        <span className="highlightWords eight"> Python</span>
+        <span class="nonhighlight">, aunque eso será solo el principio.</span>
       </p>
     </div>
     );
