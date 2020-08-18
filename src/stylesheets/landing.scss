@@ -1,4 +1,8 @@
+@import "/variables";
 @import "/mixins";
+@import "/functions";
+
+
 .landing {
   margin: 0 30px 0;
 }
@@ -7,12 +11,12 @@
   align-self: center;
   padding: 20px;
   transform: translate(0px, 15vh);
-  font-size: 16px;
+  font-size: rem(16);
     @include tablet {
       align-self: center;
       padding: 20px;
       transform: translate(0px, 15vh);
-      font-size: 22px;
+      font-size: rem(22);
   }
 }
 .code_container:hover {
@@ -45,14 +49,14 @@
 .button_word {
   transform: translate(0px, 15vh);
   line-height: 33px;
-  font-size: 16px;
+  font-size: rem(16);
   @include tablet {
-    font-size: 22px;
+    font-size: rem(22);
   }
 }
 
 .run_icon{
-  font-size: 26px;
+  font-size: rem(26);
   margin-right: 15px;
   transform: translateY(3px);
 
