@@ -28,6 +28,11 @@ button {
 	outline: inherit;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .header {
   padding: 20px;
   background-color: #f3f3f3;
@@ -100,6 +105,10 @@ main {
               opacity 0.55s ease;
 }
 
+.menuToggle:hover span {
+  background: #d9c032;
+}
+
 .menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
@@ -111,7 +120,7 @@ main {
 .menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  
 }
 
 .menuToggle input:checked ~ span:nth-last-child(3) {

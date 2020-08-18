@@ -4,6 +4,7 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Footer from './Footer';
+import Landing from './Landing';
 import projects from '../data/projects.json';
 import '../stylesheets/App.scss';
 import { Link, Route, Switch } from 'react-router-dom';
@@ -38,12 +39,13 @@ const App = () => {
     </header>
       <main>
       <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Landing} />
           <Route path="/projects">
             <Projects projects={projects}/>
           </Route>
           <Route path="/aboutme" component={AboutMe} />
           <Route path="/contact" component={Contact} />
+          <Route path="/home" component={Home} />
         </Switch>
       </main>
       <Footer/>
