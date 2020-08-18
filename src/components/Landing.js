@@ -11,7 +11,7 @@ library.add(fas)
 const Landing = () => {
   const openKey = "{";
   const closeKey = "}";
-  return (<div>
+  return (<div className="landing">
   <div className="code_container">
     <p><b>public class <span className="main_words">Welcome</span></b> {openKey}</p>
     <p className="indent2"><b>public static void <span className="main_words">main</span></b>(String[] args) {openKey}</p>
@@ -19,11 +19,11 @@ const Landing = () => {
     <p className="indent2">{closeKey}</p>
     <p>{closeKey}</p>
   </div>
-    <div className="run_button">
-      <Link to="/home" >
-        <FontAwesomeIcon icon={['fas', 'play']} className="run_icon"/><span className="button_word">Ejecutar</span>
-      </Link>
-    </div>
+  <div className="run_button">
+    <Link to="/home" >
+      <FontAwesomeIcon icon={['fas', 'play']} className="run_icon"/><span className="button_word">Ejecutar</span>
+    </Link>
+  </div>
   </div>
   );
 }
