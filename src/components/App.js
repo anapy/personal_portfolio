@@ -1,26 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Projects from './Projects';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Footer from './Footer';
 import projects from '../data/projects.json';
-
-
 import '../stylesheets/App.scss';
 import { Link, Route, Switch } from 'react-router-dom';
 
 const App = () => {
+  const [hamburger, setHamburger] = useState(false);
+
+  const hamburgerHandler = ev => {
+    setHamburger(ev.target.checked);
+  }
+  const navHandler = () => {
+    setHamburger(false);
+  }
+
   return (
     <div>
     <header className="header">
       <Link to="/"><img src="./images/logoAB.png" alt="logoAB" height="150px"></img></Link>
-      <nav>
-        <ul className="navigation_menu">
-          <li><Link className="nav_link" to="/projects">Proyectos </Link></li>
-          <li><Link className="nav_link center" to="/aboutme">Sobre mí </Link></li>
-          <li><Link className="nav_link" to="/contact">Contacto</Link></li>
+      <nav className="navigation">
+      <div className="menuToggle">
+      <input type="checkbox" checked={hamburger} onClick={hamburgerHandler}/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul className="menu navigation_menu" onClick={navHandler}>
+          <li><Link className="nav_link" to="/projects" >Proyectos </Link></li>
+          <li><Link className="nav_link center" to="/aboutme" >Sobre mí </Link></li>
+          <li><Link className="nav_link" to="/contact" >Contacto</Link></li>
         </ul>
+        </div>
       </nav>
     </header>
       <main>
