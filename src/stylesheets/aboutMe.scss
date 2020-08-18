@@ -2,19 +2,29 @@
   line-height: 30px;
   font-size: 20px;
   width: 80vw;
-  &_title {  
+  &_title {
     color: #d9c032;
     text-align: center;
     font-size: 36px;
-
+  }
+  &_info {
+    display: flex;
   }
 }
 
+.studies, .tecnologies{
+ padding-bottom: 15px;
+}
+
 .article_container {
-  display: flex;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .section_title {
   text-align: center;
+}
+
+.img_home_container {
+  position: relative;
+  transform: translateY(6px);
 }

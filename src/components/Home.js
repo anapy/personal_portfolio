@@ -5,7 +5,6 @@ class Home extends React.Component {
   render() {
     return (
     <div className="home">
-      {/* <div className="img_home_container"><img src="./images/foto.jpeg" alt="foto" height="300px"></img></div> */}
       <p className="home_text">
         <span class="nonhighlight">Graduada en Traducción e Interpretación con gran pasión por los</span>
         <span className="highlightWords two"> idiomas </span>
