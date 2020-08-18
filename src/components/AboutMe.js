@@ -6,21 +6,8 @@ class AboutMe extends React.Component {
     return (
     <div className="aboutMe">
       <h2 className="aboutMe_title">Sobre mí</h2>
-      <div className="article_container">
-      <article className="studies">
-        <h3>Formación</h3>
-        <p>En 2015 me gradué en el grado de <b>Traducción e Interpretación</b></p>
-      </article>
-      <article className="experience">
-        <h3>Experiencia</h3>
-        <p>En 2015 me gradué en el grado de <b>Traducción e Interpretación</b></p>
-      </article>
-      <article className="hobbies">
-        <h3>Hobbies</h3>
-        <p>En 2015 me gradué en el grado de <b>Traducción e Interpretación</b></p>
-      </article>
+      <h3>En construcción...</h3>
       </div>
-    </div>
     );
   }
 }
