@@ -33,21 +33,29 @@ a {
   text-decoration: none;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   padding: 20px;
   background-color: #f3f3f3;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   @include tablet {
     flex-direction: row;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
+.AB_logo {
+  right: 10px;
+  position: relative;
+  @include tablet {
 
-main {
-  display: flex;
-  justify-content: center;
+  }
 }
 
 //Hamburger menu
@@ -62,10 +70,14 @@ main {
   display: block;
   position: relative;
   top: 30px;
-  left: -60px;
+  right: 40px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+  @include tablet {
+    top: 30px;
+    left: -60px;
+  }
 }
 
 .nav_link {
@@ -120,7 +132,6 @@ main {
 .menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  
 }
 
 .menuToggle input:checked ~ span:nth-last-child(3) {

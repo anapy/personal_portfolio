@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div>
     <header className="header">
-      <Link to="/"><img src="./images/logoAB.png" alt="logoAB" height="150px"></img></Link>
+      <Link to="/"><img src="./images/logoAB.png" alt="logoAB" height="150px" className="AB_logo"></img></Link>
       <nav className="navigation">
       <div className="menuToggle">
       <input type="checkbox" checked={hamburger} onClick={hamburgerHandler}/>
