@@ -145,20 +145,25 @@ main {
 
 .menu {
   position: absolute;
-  margin: -100px 0 0 -141px;
+  margin: -100px 0 0 -120px;
   padding: 50px 50px 20px;
   padding-top: 125px;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   display: none;
-
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  @include tablet {
+    margin: -100px 0 0 -141px;
+  }
 }
 
 .menu .nav_link
 {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 16px;
+  @include tablet {
+    font-size: 22px;
+  }
 }
 
 .menuToggle input:checked ~ .navigation_menu {
