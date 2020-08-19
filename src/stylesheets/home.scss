@@ -1,16 +1,32 @@
+@import "/mixins";
+
 .home {
   display: flex;
   align-items: center;
   background-color: #f3f3f3;
   line-height: 50px;
-  font-size: 20px;
   margin: 40px 40px 40px 60px;
+  @include tablet {
+    margin: 40px 40px 40px 60px;
+    line-height: 50px;
+    font-size: 20px;
+  }
 }
 
 .home_text {
   padding: 20px;
   color: black;
-  font-size: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  @include tablet {
+    line-height: 30px;
+    font-size: 24px;
+  }
+  @include desktop {
+    line-height: 50px;
+    font-size: 30px;
+  }
+
 }
 
 .nonhighlight {

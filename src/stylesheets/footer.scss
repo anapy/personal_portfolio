@@ -1,3 +1,5 @@
+@import "/mixins";
+
 .footer {
 position: fixed;
 bottom: 0;
@@ -14,8 +16,8 @@ left: 40px;
 .circle {
   display: flex;
   justify-content: center;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   opacity: 0;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
@@ -25,6 +27,14 @@ left: 40px;
   transition: all 0.4s ease-out;
   background-color: rgb(216, 191, 51);
   border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: -15%;
+  @include desktop {
+    position: static;
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .open.circle {
@@ -40,6 +50,11 @@ left: 40px;
   line-height: 40px;
   margin-top:-20px;
   position: absolute;
+  font-size: 14px;
+
+  @include tablet {
+    font-size: 18px;
+  }
 }
 
 .circle a:hover {
@@ -48,13 +63,20 @@ left: 40px;
 
 .menu-button {
   position: absolute;
-  top: calc(50% - 30px);
-  left: 15%;
+  top: calc(50% - -10px);
+  left: -10%;
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   line-height: 40px;
   background: #2e3840;
+  @include tablet {
+    height: 80px;
+    width: 80px;
+    top: calc(50% - 30px);
+    left: 15%;
+  }
+
 }
 
 .menu-button:hover {
@@ -63,25 +85,40 @@ left: 40px;
 
 .twitter {
   position: relative;
-  left: 38%;
-  top: 35%;
+  left: 40%;
+  top: 25%;
+  @include tablet {
+    left: 38%;
+    top: 35%;
+  }
 }
 
 .github {
   position: relative;
-  left: 55%;
-  top: 40%;
+  left: 64%;
+  top: 38%;
+  @include tablet {
+    left: 55%;
+    top: 40%;
+  }
 }
 
 .linkedin {
   position: relative;
-  left: 58%;
-  top: 58%;
+  left: 65%;
+  top: 62%;
+  @include tablet {
+    left: 58%;
+    top: 58%;
+  }
 }
 
 .share_logo{
   align-items: center;
   margin-top: 10px;
   color: #d9c032;
-  font-size: 35px;
+  font-size: 26px;
+  @include tablet {
+    font-size: 35px;
+  }
 }
