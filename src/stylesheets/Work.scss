@@ -44,13 +44,19 @@
         padding: 20px 0;
       }
     }
+    &_description {
+      font-size: 12px;
+    }
     &_tecnologies {
-      margin: 15px;
+      margin: 15px 0;
       display: flex;
       justify-content: space-around;
+      .tecnology_logo {
+        padding: 5px;
+      }
+
     }
   }
-
   &_links {
     display: flex;
     justify-content: space-between;

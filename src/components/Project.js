@@ -4,7 +4,7 @@ import React from 'react';
 const Project = props => {
   const {id, name, tecnologies, description, image, webURL, githubURL} = props;
   const tecnologiesList = tecnologies.map((tecnology, index) => {
-    return <li className="tecnologies" key={index}><img src={tecnology.url} alt={tecnology.name} height="30px"></img></li>
+    return <li className="tecnology_logo" key={index}><img src={tecnology.url} alt={tecnology.name} height="30px"></img></li>
   } );
   return (
     <div className="work">
