@@ -3,15 +3,25 @@
 
 .aboutMe {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 16px;
   width: 80vw;
+  @include tablet {
+    font-size: 20px;
+  }
   &_title {
     color: $color-accenture;
     text-align: center;
     font-size: 36px;
+    padding-bottom: 20px;
   }
   &_info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include tablet {
+      flex-direction: row;
+      align-items: unset;
+    }
   }
 }
 
@@ -23,15 +33,14 @@
   padding: 0 20px;
 }
 
-.section_title {
-  text-align: center;
-}
-
 .img_home_container {
   position: relative;
   transform: translateY(6px);
+  img {
+    margin-bottom: 20px;
+  }
 }
 
-.article_aboutMe_title {
+.article_title {
   padding: 0 0 10px;
 }
