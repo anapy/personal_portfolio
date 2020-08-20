@@ -42,11 +42,14 @@
     align-items: center;
     &_title {
       padding: 10px 0;
+      font-size:rem(16);
       @include tablet {
         padding: 20px 0;
+        font-size: rem(24);
       }
     }
     &_description {
+      text-align: justify;
       font-size: rem(14);
       @include tablet {
         font-size: rem(16);
