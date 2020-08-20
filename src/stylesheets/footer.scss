@@ -29,11 +29,12 @@ left: 40px;
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 10px);
-  left: -15%;
+  right: -70%;
   @include tablet {
     position: static;
     width: 200px;
     height: 200px;
+    left: -15%;
   }
 }
 
@@ -63,8 +64,8 @@ left: 40px;
 
 .menu-button {
   position: absolute;
-  top: calc(50% - -10px);
-  left: -10%;
+  top: calc(50% - -20px);
+  right: -60%;
   border-radius: 50%;
   height: 60px;
   width: 60px;
@@ -85,7 +86,7 @@ left: 40px;
 
 .twitter {
   position: relative;
-  left: 40%;
+  left: 45%;
   top: 25%;
   @include tablet {
     left: 38%;
@@ -95,7 +96,7 @@ left: 40px;
 
 .github {
   position: relative;
-  left: 64%;
+  right: 64%;
   top: 38%;
   @include tablet {
     left: 55%;
@@ -105,7 +106,7 @@ left: 40px;
 
 .linkedin {
   position: relative;
-  left: 65%;
+  right: 70%;
   top: 62%;
   @include tablet {
     left: 58%;
