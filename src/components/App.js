@@ -25,7 +25,7 @@ const App = () => {
       <Link to="/"><img src="./images/logoAB.png" alt="logoAB" height="150px" className="AB_logo"></img></Link>
       <nav className="navigation">
       <div className="menuToggle">
-      <input type="checkbox" checked={hamburger} onClick={hamburgerHandler}/>
+      <input type="checkbox" checked={hamburger} onChange={hamburgerHandler}/>
         <span></span>
         <span></span>
         <span></span>
