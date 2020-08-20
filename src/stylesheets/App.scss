@@ -54,10 +54,11 @@ main {
 
 .AB_logo {
   height: 100px;
-  right: 10px;
+  right: 50px;
   position: relative;
   @include tablet {
     height: 150px;
+    right: 10px;
 
   }
 }

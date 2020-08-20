@@ -1,24 +1,26 @@
 @import "/mixins";
 @import "/variables";
+@import "/functions";
+
 
 .home {
   display: flex;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: $color-light;
   line-height: 50px;
   margin: 40px 40px 40px 60px;
   text-align: justify;
   @include tablet {
     margin: 40px 40px 40px 60px;
     line-height: 50px;
-    font-size: 20px;
+    font-size: rem(20);
   }
 }
 
 .home_text {
   // padding: 20px;
-  color: black;
-  font-size: 18px;
+  color: $color-black;
+  font-size: rem(18);
   line-height: 30px;
   @include tablet {
     line-height: 30px;
@@ -26,7 +28,7 @@
   }
   @include desktop {
     line-height: 50px;
-    font-size: 30px;
+    font-size: rem(30);
   }
 
 }
@@ -44,11 +46,11 @@
 
 .highlightWords {
   font-weight: 900;
-  color: rgb(216, 191, 51);
+  color: $color-accenture;
 
   transition: color ease;
 
   &:hover {
-    color: rgb(182, 151, 50);
+    color: $color-accenture-dark;
   }
 }
