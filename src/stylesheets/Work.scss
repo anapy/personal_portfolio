@@ -1,13 +1,6 @@
 @import "/mixins";
 @import "/variables";
 
-.project_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .projects_title {
   color: $color-accenture;
   text-align: center;
@@ -16,11 +9,10 @@
     font-size: 36px;
   }
 }
-
 .project {
   color: $color-main;
   background-color: $color-white;
-  padding: 30px;
+  padding: 25px;
   position: relative;
   margin: 20px;
   width: 350px;
@@ -32,12 +24,20 @@
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border-radius: 5px;
   @include tablet {
-    padding: 30px;
     margin: 20px;
     width: 450px;
     height: 500px;
   }
+  &_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   &_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &_title {
       padding: 10px 0;
       @include tablet {
@@ -46,28 +46,31 @@
     }
     &_description {
       font-size: 12px;
+      @include tablet {
+        font-size: 16px;
+      }
     }
     &_tecnologies {
+      align-self: normal;
       margin: 15px 0;
       display: flex;
       justify-content: space-around;
       .tecnology_logo {
         padding: 5px;
       }
-
     }
   }
   &_links {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  & .web, .github {
-    display: block;
-    padding: 5px;
-  }
-  & .web:hover, .github_logo:hover {
-    opacity: 0.5;
-  }
+    & .web, .github {
+      display: block;
+      padding: 5px;
+    }
+    & .web:hover, .github_logo:hover {
+      opacity: 0.5;
+    }
   }
 }
 

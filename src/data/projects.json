@@ -64,7 +64,7 @@
       {"name":"JavaScript", "url": "./images/logos/JS.png"},
       {"name":"API Rest", "url": "./images/logos/API.png"}
     ],
-    "description": "Web que recoge información de series de una API y permite hacer búsuqedas y guardar en favoritos",
+    "description": "Web que recoge información de series de una API y permite hacer búsquedas y guardar en favoritos",
     "image": "./images/module-2-final.png",
     "webURL": "http://beta.adalab.es/modulo-2-evaluacion-final-anapy/",
     "githubURL": "https://github.com/Adalab/modulo-2-evaluacion-final-anapy"
@@ -123,7 +123,7 @@
       {"name":"Java","url": "./images/logos/JAVA.png"}
     ],
     "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las mismas funcionalidades y añadiendo detalles al original",
-    "image": "https://via.placeholder.com/200x60/FFFF00/000000?text=No+a+web+project",
+    "image": "https://via.placeholder.com/200x80/FFFF00/000000?text=No+a+web+project",
     "webURL": "",
     "githubURL": "https://github.com/anapy/Gestion-fabrica-artesanal-de-muebles"
   }
