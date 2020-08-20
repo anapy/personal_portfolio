@@ -1,3 +1,5 @@
+@import "/mixins";
+@import "/variables";
 .contact {
   margin: 0 60px;
   display: flex;
@@ -5,7 +7,7 @@
   justify-content: center;
   align-items: center;
   &__title {
-    color: #d9c032;
+    color: $color-accenture;
     align-items: center;
     font-size: 36px;
   }
@@ -14,7 +16,7 @@
     padding: 0 0 20px;
   }
   &__star {
-    color:#d9c032;
+    color:$color-accenture;
   }
 }
 
@@ -31,12 +33,12 @@ input, textarea {
 }
 
 .submit_button {
-  background-color: #2e3840;
+  background-color: $color-main;
   color: rgb(216, 191, 51);
   font-size: 20px;
 }
 
 .submit_button:hover {
   background-color: rgb(216, 191, 51);
-  color: #2e3840
+  color: $color-main;
 }

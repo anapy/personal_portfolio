@@ -1,9 +1,12 @@
+@import "/mixins";
+@import "/variables";
+
 .aboutMe {
   line-height: 30px;
   font-size: 20px;
   width: 80vw;
   &_title {
-    color: #d9c032;
+    color: $color-accenture;
     text-align: center;
     font-size: 36px;
   }

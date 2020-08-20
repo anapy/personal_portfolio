@@ -15,7 +15,7 @@ li {
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: $color-light;
 }
 
 button {
@@ -41,7 +41,7 @@ main {
 .header {
   margin: 0 40px;
   padding: 20px;
-  background-color: #f3f3f3;
+  background-color: $color-light;
   display: flex;
   justify-content: space-between;
   @include tablet {
@@ -85,12 +85,12 @@ main {
 
 .nav_link {
   text-decoration: none;
-  color: #232323;
+  color: $color-main;
   transition: color 0.3s ease;
 }
 
 .nav_link:hover {
-  color: rgb(182, 151, 50);
+  color: $color-accenture;
 }
 
 .menuToggle input{
@@ -111,7 +111,7 @@ main {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #2e3840;
+  background: $color-main;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -121,7 +121,7 @@ main {
 }
 
 .menuToggle:hover span {
-  background: #d9c032;
+  background: $color-accenture;
 }
 
 .menuToggle span:first-child {

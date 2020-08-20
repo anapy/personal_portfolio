@@ -30,7 +30,7 @@ left: 40px;
   position: absolute;
   top: calc(50% - 10px);
   left: -15%;
-  @include desktop {
+  @include tablet {
     position: static;
     width: 200px;
     height: 200px;
@@ -46,7 +46,7 @@ left: 40px;
 
 .circle a {
   text-decoration: none;
-  color: #2e3840;
+  color: $color-main;
   line-height: 40px;
   margin-top:-20px;
   position: absolute;
@@ -69,7 +69,7 @@ left: 40px;
   height: 60px;
   width: 60px;
   line-height: 40px;
-  background: #2e3840;
+  background: $color-main;
   @include tablet {
     height: 80px;
     width: 80px;
@@ -116,7 +116,7 @@ left: 40px;
 .share_logo{
   align-items: center;
   margin-top: 10px;
-  color: #d9c032;
+  color: $color-accenture;
   font-size: 26px;
   @include tablet {
     font-size: 35px;
