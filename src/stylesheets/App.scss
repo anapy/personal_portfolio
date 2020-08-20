@@ -66,6 +66,7 @@ main {
 .navigation_menu {
   font-size: 20px;
   li {
+    background-color: $color-light-secondary;
     padding: 5px
   }
 }
@@ -160,8 +161,7 @@ main {
   }
 }
 
-.menu .nav_link
-{
+.menu .nav_link {
   padding: 10px 0;
   font-size: 16px;
   @include tablet {
@@ -172,16 +172,8 @@ main {
 .menuToggle input:checked ~ .navigation_menu {
   transform: none;
   display: block;
-  animation: fadeIn ease 5s;
 }
 
-@keyframes fadeIn {
-  0% {opacity:0;}
-  25% {opacity: 0.5;}
-  50% {opacity: 0.7;}
-  100% {opacity:1;}
-  }
-
-  .menuToggle input::not(:checked) ~ .navigation_menu {
-    display: none;
-  }
+.menuToggle input::not(:checked) ~ .navigation_menu {
+  display: none;
+}

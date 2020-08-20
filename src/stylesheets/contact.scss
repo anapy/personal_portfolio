@@ -1,15 +1,24 @@
 @import "/mixins";
 @import "/variables";
+@import "functions";
+
 .contact {
   margin: 0 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: rem(14);
+  @include tablet {
+    font-size: rem(16);
+  }
   &__title {
     color: $color-accenture;
     align-items: center;
-    font-size: 36px;
+    font-size: rem(24);
+    @include tablet {
+      font-size: rem(36)
+    }
   }
   &__paragraph {
     align-self: center;
@@ -36,11 +45,11 @@ input, textarea {
 
 .submit_button {
   background-color: $color-main;
-  color: rgb(216, 191, 51);
+  color: $color-accenture;
   font-size: 20px;
 }
 
 .submit_button:hover {
-  background-color: rgb(216, 191, 51);
+  background-color: $color-accenture;
   color: $color-main;
 }

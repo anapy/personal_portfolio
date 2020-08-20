@@ -20,24 +20,24 @@ const App = () => {
   }
 
   return (
-    <div>
-    <header className="header">
+    <div onClick={navHandler}>
+    <header className="header" >
       <Link to="/"><img src="./images/logoAB.png" alt="logoAB" height="150px" className="AB_logo"></img></Link>
       <nav className="navigation">
-      <div className="menuToggle">
-      <input type="checkbox" checked={hamburger} onChange={hamburgerHandler}/>
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul className="menu navigation_menu" onClick={navHandler}>
-          <li><Link className="nav_link" to="/projects" >Proyectos </Link></li>
-          <li><Link className="nav_link center" to="/aboutme" >Sobre mí </Link></li>
-          <li><Link className="nav_link" to="/contact" >Contacto</Link></li>
-        </ul>
+        <div className="menuToggle">
+          <input type="checkbox" checked={hamburger} onChange={hamburgerHandler}/>
+          <span className="hamburger1"></span>
+          <span className="hamburger2"></span>
+          <span className="hamburger3"></span>
+          <ul className="menu navigation_menu">
+            <li><Link className="nav_link" to="/projects" >Proyectos </Link></li>
+            <li><Link className="nav_link center" to="/aboutme" >Sobre mí </Link></li>
+            <li><Link className="nav_link" to="/contact" >Contacto</Link></li>
+          </ul>
         </div>
       </nav>
     </header>
-      <main>
+      <main >
       <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/projects">

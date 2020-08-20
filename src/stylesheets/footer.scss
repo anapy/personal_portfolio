@@ -1,16 +1,14 @@
 @import "/mixins";
-
 .footer {
-position: fixed;
-bottom: 0;
-left: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 40px;
 }
 
 .circular-menu {
   width: 200px;
   height: 200px;
   position: relative;
-
 }
 
 .circle {
@@ -25,7 +23,7 @@ left: 40px;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
-  background-color: rgb(216, 191, 51);
+  background-color: $color-accenture;
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 10px);
@@ -59,7 +57,7 @@ left: 40px;
 }
 
 .circle a:hover {
-  color: #385772;
+  color: $color-main-light;
 }
 
 .menu-button {
@@ -81,7 +79,7 @@ left: 40px;
 }
 
 .menu-button:hover {
-  background-color: #385772;
+  background-color: $color-main-light;
 }
 
 .twitter {

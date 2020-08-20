@@ -1,12 +1,14 @@
 @import "/mixins";
 @import "/variables";
+@import "functions";
+
 
 .projects_title {
   color: $color-accenture;
   text-align: center;
-  font-size: 30px;
+  font-size: rem(24);
   @include tablet {
-    font-size: 36px;
+    font-size: rem(36);
   }
 }
 .project {
@@ -45,9 +47,9 @@
       }
     }
     &_description {
-      font-size: 12px;
+      font-size: rem(14);
       @include tablet {
-        font-size: 16px;
+        font-size: rem(16);
       }
     }
     &_tecnologies {
