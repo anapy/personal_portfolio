@@ -25,7 +25,10 @@ input, textarea {
   margin: 10px 0;
   display: block;
   padding: 10px 5px;
-  width: 500px;
+  width: 300px;
+  @include tablet {
+    width: 500px;
+  }
 }
 
 .textarea {
