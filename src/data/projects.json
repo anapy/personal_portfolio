@@ -35,7 +35,7 @@
       {"name":"JavaScript", "url": "./images/logos/JS.png"},
       {"name":"API Rest", "url": "./images/logos/API.png"}
     ],
-    "description": "Web iteractica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon.",
+    "description": "Web interactica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon.",
     "image": "./images/project-module-2.jpg",
     "webURL": "http://beta.adalab.es/project-module-2-group-6/",
     "githubURL": "https://github.com/Adalab/project-module-2-group-6"
