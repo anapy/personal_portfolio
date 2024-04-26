@@ -6,25 +6,25 @@ class Home extends React.Component {
     return (
     <div className="home">
       <p className="home_text">
-        <span className="nonhighlight">Graduada en Traducción e Interpretación con gran pasión por los</span>
-        <span className="highlightWords two"> idiomas </span>
-        <span className="nonhighlight">que ha decidido cambiar los lenguajes humanos por los lenguajes de</span>
-        <span className="highlightWords one"> programación</span>
-        <span className="nonhighlight">. Mi experiencia laboral me ha llevado a entornos en los que la capacidad</span>
-        <span className="highlightWords four"> resolutiva</span>
-        <span className="nonhighlight"> y la adaptabilidad a diferentes culturas e idiomas era algo esencial. Soy curiosa y</span>
-        <span className="highlightWords six"> exigente </span>
-        <span className="nonhighlight">con mi trabajo. Cuando descubrí el mundo tecnológico decidí cambiar de rumbo profesional e inicié mis estudios en </span>
-        <span className="highlightWords seven"> Ingeniería Informática</span>
-        <span className="nonhighlight">. Me apasiona tener siempre algo nuevo que</span>
-        <span className="highlightWords three"> aprender </span>
-        <span className="nonhighlight">y fijarme metas que alcanzar, por eso decidí formarme como desarrolladora</span>
-        <span className="highlightWords five"> Front-End </span>
-        <span className="nonhighlight"> y así sumarlo a mis conocimientos de</span>
-        <span className="highlightWords nine"> Java </span>
+        <span className="nonhighlight">Me gradué en Traducción e Interpretación pero descubrí el</span>
+        <span className="highlightWords two"> mundo tecnológico </span>
+        <span className="nonhighlight">y tomé la decisión de cambiar de rumbo profesional e inicié mis estudios en</span>
+        <span className="highlightWords one"> Ingeniería Informática</span>
+        <span className="nonhighlight">. Me apasiona tener siempre algo nuevo que aprender y fijarme</span>
+        <span className="highlightWords four"> metas</span>
+        <span className="nonhighlight"> que alcanzar. Me inicié en el mundo de la programación con cursos en</span>
+        <span className="highlightWords six"> Python </span>
+        <span className="nonhighlight">, también he hecho desarrollos en</span>
+        <span className="highlightWords seven"> Java </span>
         <span className="nonhighlight">y</span>
-        <span className="highlightWords eight"> Python</span>
-        <span className="nonhighlight">, aunque eso será solo el principio.</span>
+        <span className="highlightWords three"> React </span>
+        <span className="nonhighlight">. Finalmente encontré mi sitio con</span>
+        <span className="highlightWords five"> Angular </span>
+        <span className="nonhighlight">y</span>
+        <span className="highlightWords nine"> Node </span>
+        <span className="nonhighlight">, lenguajes en los que he estado desarrollando diferentes proyectos. Además también tengo proyectos propios en desarrollo tanto en React como</span>
+        <span className="highlightWords eight"> React Native</span>
+        <span className="nonhighlight">.</span>
       </p>
     </div>
     );
