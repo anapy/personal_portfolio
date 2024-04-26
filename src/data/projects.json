@@ -9,12 +9,12 @@
     ],
     "description": "Web grupal para presentar a las integrantes del equipo de trabajo de Adalab.",
     "image": "./images/project-module-1.png",
-    "webURL": "http://beta.adalab.es/project-promo-j-module-1-team-5/",
-    "githubURL": "https://github.com/Adalab/project-promo-j-module-1-team-5"
+    "webURL": "https://anapy.github.io/queens_of_code/",
+    "githubURL": "https://github.com/anapy/queens_of_code"
   },
   {
     "id": "final_module1",
-    "name": "Anonimous Proxy",
+    "name": "Anonymous Proxy",
     "tecnologies": [
       {"name":"HTML","url": "./images/logos/HTML.svg.png"},
       {"name":"CSS", "url": "./images/logos/CSS.svg.png"},
@@ -22,8 +22,8 @@
     ],
     "description": "Web individual maquetada según diseño dado por Zeplin.",
     "image": "./images/module-1-final.png",
-    "webURL": "http://beta.adalab.es/modulo-1-evaluacion-final-anapy/",
-    "githubURL": "https://github.com/Adalab/modulo-1-evaluacion-final-anapy"
+    "webURL": "https://anapy.github.io/anonymous_proxy/",
+    "githubURL": "https://github.com/anapy/anonymous_proxy"
   },
   {
     "id": "project2",
@@ -37,8 +37,8 @@
     ],
     "description": "Web interactica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon.",
     "image": "./images/project-module-2.jpg",
-    "webURL": "http://beta.adalab.es/project-module-2-group-6/",
-    "githubURL": "https://github.com/Adalab/project-module-2-group-6"
+    "webURL": "https://anapy.github.io/sailor_code/",
+    "githubURL": "https://github.com/anapy/sailor_code"
   },
   {
     "id": "intermediate_module2",
@@ -51,8 +51,8 @@
     ],
     "description": "Web que contiene un juego de adivinar el número del 1-100 con pistas y contador de errores.",
     "image": "./images/module-2-intermedia.png",
-    "webURL": "http://beta.adalab.es/modulo-2-evaluacion-intermedia-anapy/",
-    "githubURL": "https://github.com/Adalab/modulo-2-evaluacion-intermedia-anapy"
+    "webURL": "https://anapy.github.io/guest_the_number/",
+    "githubURL": "https://github.com/anapy/guest_the_number"
   },
   {
     "id": "final_module2",
@@ -66,8 +66,8 @@
     ],
     "description": "Web que recoge información de series de una API y permite hacer búsquedas y guardar favoritos.",
     "image": "./images/module-2-final.png",
-    "webURL": "http://beta.adalab.es/modulo-2-evaluacion-final-anapy/",
-    "githubURL": "https://github.com/Adalab/modulo-2-evaluacion-final-anapy"
+    "webURL": "https://anapy.github.io/serieaholic/",
+    "githubURL": "https://github.com/anapy/serieaholic"
   },
   {
     "id": "intermediate_module3",
@@ -81,8 +81,8 @@
     ],
     "description": "Web en react que muestra una serie de pokemons y permite marcarlos como favoritos.",
     "image": "./images/module-3-intermediate.png",
-    "webURL": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-anapy/",
-    "githubURL": "hhttps://github.com/Adalab/modulo-3-evaluacion-intermedia-anapy"
+    "webURL": "https://anapy.github.io/my_pokedex/",
+    "githubURL": "https://github.com/anapy/my_pokedex"
   },
   {
     "id": "final_module3",
@@ -97,8 +97,8 @@
     ],
     "description": "Web realizada con react y ambientada en Rick y Morty que consulta una API y permite realizar búsquedas eligiendo diferentes filtros.",
     "image": "./images/module-3-final.png",
-    "webURL": "http://beta.adalab.es/modulo-3-evaluacion-final-anapy/#/",
-    "githubURL": "https://github.com/Adalab/modulo-3-evaluacion-final-anapy"
+    "webURL": "https://anapy.github.io/rick_and_morty/#/",
+    "githubURL": "https://github.com/anapy/rick_and_morty"
   },
   {
     "id": "project3",
@@ -113,8 +113,8 @@
     ],
     "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las funcionalidades y añadiendo nuevas al original.",
     "image": "./images/project-module-3.png",
-    "webURL": "http://beta.adalab.es/project-promo-j-module-3-team-8/#/",
-    "githubURL": "https://github.com/Adalab/project-promo-j-module-3-team-8"
+    "webURL": "https://anapy.github.io/kard-ma-cards/",
+    "githubURL": "https://github.com/anapy/kard-ma-cards"
   },
   {
     "id": "Java_project",
