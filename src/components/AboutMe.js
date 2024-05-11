@@ -7,7 +7,7 @@ const AboutMe = () => {
   <div className="aboutMe">
     <h2 className="aboutMe_title">Sobre mí</h2>
     <div className="aboutMe_info">
-      <div className="img_home_container"><img src="./images/AB_black.jpg" alt="foto" height="300px"></img></div>
+      <div className="img_home_container"><img src="./images/AB_photo.jpeg" alt="foto" height="300px"></img></div>
       <div className="article_container">
       <article className="studies">
         <h3 className="article_title">Experiencia Laboral</h3>
